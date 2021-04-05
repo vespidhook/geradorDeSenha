@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "gerador",
-    "slug": "gerador",
+    "name": "Gerador de Senha",
+    "slug": "geradordesenha",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f3f3ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -20,11 +20,15 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.bas.geradordesenha",
+      "versionCode": 1,
+      "permissions": ["CAMERA,READ_CONTACTS,RECORD_AUDIO,READ_PHONE_STATE"],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#f3f3ff"
       }
     },
+    
     "web": {
       "favicon": "./assets/favicon.png"
     }
